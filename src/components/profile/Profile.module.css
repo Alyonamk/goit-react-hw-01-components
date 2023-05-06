@@ -1,0 +1,81 @@
+.profile {
+  border: 1px solid rgb(140, 112, 132);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: rgb(188, 160, 160);
+  margin: 0 auto;
+  box-shadow: -3px -3px 5px rgb(140, 112, 132), 3px 3px 5px rgb(150, 130, 130);
+ }
+  
+  .description {
+    text-align: center;
+    width: 300px;
+    padding: 30px;
+  }
+  
+  .avatar {
+    display: inline-block;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: -3px -3px 7px rgb(140, 112, 132), 3px 3px 5px rgb(150, 130, 130);
+    &:hover {
+      background-color: rgb(201, 179, 179);
+      box-shadow: inset -3px -3px 7px rgb(118, 84, 109), inset 3px 3px 5px rgb(175, 152, 152);
+    }
+  }
+  
+  .name {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 16px;
+    color: rgb(78, 22, 128);
+  }
+  
+  .tag {
+    color: rgb(160, 33, 33);
+  }
+  
+  .location {
+    color: rgb(45, 60, 158);
+  }
+  
+  .stats {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .item {
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    list-style: none;
+  }
+  
+  .item:not(:last-child) {
+    border-right: 1px solid rgb(140, 112, 132);
+  }
+  
+  .label {
+    display: block;
+    color: rgb(78, 22, 128);
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  
+  .quantity {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 16px;
+    color: rgb(160, 33, 33);;
+  }
